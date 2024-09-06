@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "nodemon": "^3.1.4",
+    "yargs": "^17.7.2"
+  },
+  "name": "todo-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start":"nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
