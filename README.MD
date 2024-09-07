@@ -1,6 +1,6 @@
 # Todo CLI Application
 
-This is a command-line application for managing a to-do list.
+This is a command-line application for managing a to-do list, suggested by roadmap.sh , check it out from here https://roadmap.sh/projects/task-tracker
 
 ## Prerequisites
 
