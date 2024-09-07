@@ -1,7 +1,5 @@
 #!/usr/bin/env node
-console.log("index.js is running");
-
-const fs = require('fs');
+//this file is the entry point of the application
 const _ = require('lodash');
 const yargs = require('yargs');
 const todo = require('./todo');

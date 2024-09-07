@@ -29,3 +29,4 @@ This is a command-line application for managing a to-do list. It allows you to a
 To add a to-do item, use the `addTodo` command followed by the title of the to-do item:
 ```sh
 node index.js addTodo --title="Your todo title"
+

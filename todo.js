@@ -1,3 +1,4 @@
+//this file contains the functions to add, delete, read, update, list, mark as in progress, mark as done and log a todo item.
 const fs = require('fs');
 const _ = require('lodash');
 
@@ -98,7 +99,10 @@ const markDone = (id) => {
 };
 
 //Utility functions
-const fetchTodos = () => {
+
+//Fetches todos from a file and returns them as an array.
+//If the file does not exist or cannot be read, an empty array is returned. 
+const fetchTodos = () => { //
 	try {
         const dataBuffer = fs.readFileSync(todosFilePath);
         const dataJSON = dataBuffer.toString();
@@ -108,6 +112,7 @@ const fetchTodos = () => {
     }
 };
 
+//Saves todos to a file.
 const saveTodos = (todos) => {
     const dataJSON = JSON.stringify(todos);
     fs.writeFileSync(todosFilePath, dataJSON);
