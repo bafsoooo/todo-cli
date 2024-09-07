@@ -1,6 +1,6 @@
 # Todo CLI Application
 
-This is a command-line application for managing a to-do list. It allows you to add and delete to-do items.
+This is a command-line application for managing a to-do list.
 
 ## Prerequisites
 
